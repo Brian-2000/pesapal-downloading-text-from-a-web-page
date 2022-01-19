@@ -48,6 +48,12 @@ def create_dictionary(clean_list):
 
         top = c.most_common(10)
         print(top)
+    
+    for non_english_word in downloaded_words:
+        import re
+        text = re.sub("[^a-zA-Z0-9]+", "", text)
+        return text
+        
 
 
 if __name__ == '__main__':

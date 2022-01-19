@@ -23,3 +23,8 @@ The main task of the application is to download the text on a web page and outpu
     the program then identifies the unique words and makes the counts of the occurences of those unique words.
  - The dictionary is used to find the non-english words on the web page.
  - It also provides a way to compare the terms of words found in both.
+
+# Steps for running the application.
+- https://github.com/Brian-2000/pesapal-downloading-text-from-a-web-page.git
+- cd pesapal-downloading-text-from-a-web-page
+- You can run the application from the commandline or the console.

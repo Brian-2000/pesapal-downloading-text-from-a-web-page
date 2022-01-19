@@ -18,3 +18,8 @@ This program downloads the text when given a web page and output a sorted list o
 
 ## What the program does.
 The main task of the application is to download the text on a web page and output sorted list of the unique words on the page with the counts of the occurences.
+- First, create a web scraper using requests and the beautiful soup module.
+    The beautiful soup module extract data from the web pages and store them in a list.
+    the program then identifies the unique words and makes the counts of the occurences of those unique words.
+ - The dictionary is used to find the non-english words on the web page.
+ - It also provides a way to compare the terms of words found in both.
